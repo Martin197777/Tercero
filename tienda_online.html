@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tienda Online</title>
+	<link rel="shortcut icon" href="img/icono.png">
+	<link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+	<div class="container-tienda">
+	<section id="section">
+	<div class="encabezado__fondo--color">
+		<p class="main__parrafo--italic">No esperes al verano para estar en forma</p>
+	</div>
+    </section>
+	
+
+	    <nav class="botonera" id="nav">
+		
+		<div align="left">
+        <a href="index.html">
+		<img src="img/logo.png" alt="Logo de Underground Fitness"> </img>
+		</a>
+		</div>
+			
+			<ul>
+			    <li>
+				    <a href="index.html">Inicio</a>			
+               </li>
+			    <li>
+				    <a href=>Galería</a>
+				    <ul>
+                    <li><a href="fotos.html">Fotos</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                    </ul>
+			   </li>
+			   <li>
+				<a href="horarios.html">Horarios</a>
+			</li>
+			<li>
+				<a href="tienda_online.html">Tienda online</a>
+			</li>
+			<li>
+				<a href="contacto.html">Contacto</a>
+			</li>
+		</ul>
+	</nav>
+<div>
+	<header id="header">
+		
+		<h1 class="encabezado__titulos--textcenter">Tienda online</h1>
+		<div>
+		<img src="img/fondo2.jpg" alt="imagen de fondo" class="header__imgtienda--size">
+	    </div>
+
+		
+	</header>
+</div>
+	
+	<main id="main">
+		
+		<div>
+				 <form class="formulario" action="envio.php">
+ 		         <label for="name">Nombre y apellido</label>
+			     <input type="text" id="name" placeholder="Juan Perez">
+			     <label for="email">Email</label>
+			     <input type="email" id="email" placeholder="juanperez@hotmail.com">
+			     <label for="Telefono">Telefono</label>
+			     <input type="number" id="Telefono" placeholder="9876 5432">
+
+                 
+			      <fieldset>
+			     	
+			     	<legend>Informacion del pedido</legend>
+			     	<label for="Proteina">Proteina</label>
+			     	<input type="checkbox" id="Proteina" value="Compra Proteina"> 
+			     	
+			     	<label for="Creatina">Creatina</label>
+			     	<input type="checkbox" id="Creatina" value="Compra Creatina">
+			        
+			     	<label for="Barra energetica">Barra energetica</label>
+			     	<input type="checkbox" id="Barra energetica" value="Compra Barra energetica">
+			     	
+			     	<label for="Botella mezcladora">Botella mezcladora</label>
+			     	<input type="checkbox" id="Botella mezcladora" value="Compra Botella mezcladora">
+			     </fieldset>
+			     <fieldset>
+			       	<legend>Forma de entrega</legend>
+			     	<label for="Casa">Envio a domicilio</label>
+			     	<input type="radio" id="casa" value="Envio a domicilio" name="Envio">
+			     	
+			     	<label for="Retiro en local">Retiro en local</label>
+			     	<input type="radio"	id="local" value="Retiro en local" name="Envio">
+			      
+			     <label for="Departamento">Departamento</label>
+			     <select name="" id="">
+			     	<option value="Montevideo">Montevideo</option>
+			     	<option value="Interior">Interior</option>
+			     </select>
+			     </fieldset>
+			     	<label for="Comentarios"></label>
+			     	<textarea name="" id="" cols="30" rows="10"></textarea>
+			     	<input type="reset" value="Cancelar">
+			     	<input type="submit" value="Enviar">
+			     </form>
+			     </div>
+		
+	</main>
+
+	
+	<footer id="footer">
+		<p class="pie__msj--ap">Seguinos en las redes</p>
+		<div>
+		<div class="pie__icon--sep">
+		<a href="https://facebook.com"target="blank">
+			<img src="img/facebook.png" alt="Enlace a Facebook" class="pie__icono--p">
+		</a>	
+		<a href="https://instagram.com"target="blank">
+			<img src="img/instagram.png" alt="Enlace a Instagram" class="pie__icono--p">
+		</a>
+		<a href="https://twitter.com"target="blank">
+			<img src="img/twitter.png" alt="Enlace a Twitter" class="pie__icono--p">
+		</a>
+		
+		</div>
+		</div>
+	</footer>
+	
+</div>
+
+	
+</body>
+</html>
